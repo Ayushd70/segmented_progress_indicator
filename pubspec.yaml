@@ -1,0 +1,36 @@
+name: segmented_progress_indicator
+description: >-
+  Segmented arc progress and spinner widgets for Flutter.
+  Includes a compact progress indicator with optional center value and a
+  fading trail spinner with child overlay support.
+version: 0.1.0
+homepage: https://github.com/Ayushd70/segmented_progress_indicator
+repository: https://github.com/Ayushd70/segmented_progress_indicator
+issue_tracker: https://github.com/Ayushd70/segmented_progress_indicator/issues
+topics:
+  - ui
+  - progress
+  - loading
+  - spinner
+  - widget
+
+screenshots:
+  - description: FadingSegmentedSpinner with a fading arc trail and head dot.
+    path: doc/screenshots/spinner.png
+  - description: SegmentedProgressIndicator with a center value overlay.
+    path: doc/screenshots/with_value.png
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
