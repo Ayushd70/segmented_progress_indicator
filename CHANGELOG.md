@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Fix example test to scroll to off-stage FadingSegmentedSpinner section.
+
 ## 0.2.0
 
 * Additive APIs for determinate progress, animation control, and richer center content.
