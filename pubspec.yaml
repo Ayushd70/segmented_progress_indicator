@@ -3,7 +3,7 @@ description: >-
   Segmented arc progress and spinner widgets for Flutter.
   Includes a compact progress indicator with optional center value and a
   fading trail spinner with child overlay support.
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/Ayushd70/segmented_progress_indicator
 repository: https://github.com/Ayushd70/segmented_progress_indicator
 issue_tracker: https://github.com/Ayushd70/segmented_progress_indicator/issues

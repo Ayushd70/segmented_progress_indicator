@@ -75,6 +75,47 @@ class DemoHomePage extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _DemoCard(
+            title: 'Determinate + centerChild',
+            subtitle:
+                'progress maps the head; centerChild wins over centerValue',
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SegmentedProgressIndicator(
+                  size: 48,
+                  color: scheme.primary,
+                  progress: 0.35,
+                  centerValue: 35,
+                ),
+                SegmentedProgressIndicator(
+                  size: 48,
+                  color: scheme.primary,
+                  progress: 0.7,
+                  trailLength: 5,
+                  centerChild: Icon(
+                    Icons.check_rounded,
+                    size: 22,
+                    color: scheme.primary,
+                  ),
+                ),
+                FadingSegmentedSpinner(
+                  size: 72,
+                  color: scheme.tertiary,
+                  progress: 0.55,
+                  backgroundTrackColor: scheme.tertiary.withValues(alpha: 0.18),
+                  child: Text(
+                    '55%',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                      color: scheme.tertiary,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 16),
+          _DemoCard(
             title: 'FadingSegmentedSpinner',
             subtitle: 'Child overlay, visibleTrail, and showHeadDot',
             child: Row(
